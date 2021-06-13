@@ -5,3 +5,4 @@ print('hello world!, ilker')
 name = input('What is your name?\n>>> ')
 print ('Hello, ' + name)
 
+#notes
