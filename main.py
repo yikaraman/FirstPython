@@ -62,6 +62,24 @@ print(20+4*3/12-1)
 # * /
 # + -
 
+complex
+##--------------------------------------------------------------------
+# complex(real: float=..., imag: float=...)
+# Create a complex number from a real part and an optional imaginary part.
+# 
+# This is equivalent to (real + imag*1j) where imag defaults to 0.
+##--------------------------------------------------------------------
+bin
+print(bin(5)) # --101 output 0b101
+##--------------------------------------------------------------------
+# bin(number: Union[int, _SupportsIndex], /) -> str
+# Return the binary representation of an integer.
+# 
+# bin(2796202) '0b1010101010101010101010'
+##--------------------------------------------------------------------
+
+print(int('0b101',2))
+print(int('101',2))
 
 ##--------------------------------------------------------------------
 # List of Functions in Python Math Module
